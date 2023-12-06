@@ -4,6 +4,7 @@
 // 找出两个等长升序序列s1和s2的中位数。
 // 时间复杂度 O(logn)
 // 空间复杂度 O(1)
+// 比答案更优雅的实现
 ElemType mid(ElemType s1[], ElemType s2[], int n) {
     // i = n / 2 向上取整，j = n / 2  向下取整
     // i表示中位数的位置
