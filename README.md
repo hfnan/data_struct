@@ -3,7 +3,6 @@
 ## 用法
 首先确保你安装了gcc
 
-在Makefile所在目录执行
 ```bash
-make 2010_42
+make -C <directory name> <file name without suffix>
 ```
