@@ -8,5 +8,5 @@
 typedef int ElemType;
 
 #define new(Type) (Type*)malloc(sizeof(Type))
-
+#define newarray(n) (ElemType*)malloc(n * sizeof(ElemType))
 #endif

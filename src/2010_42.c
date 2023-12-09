@@ -27,7 +27,7 @@ void rec_left_shift(int n, int p, ElemType R[]) {
 
 int main() {
     ElemType R[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    dump(ElemType, R);
+    dump(R);
     rec_left_shift(8, 4, R);
-    dump(ElemType, R);
+    dump(R);
 }

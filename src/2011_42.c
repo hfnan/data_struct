@@ -32,7 +32,7 @@ ElemType mid(ElemType s1[], ElemType s2[], int n) {
 
 int main () {
     ElemType s1[] = {2, 4, 6, 8, 20}, s2[] = {11, 13, 15, 17, 19};
-    dump(ElemType, s1);
-    dump(ElemType, s2);
+    dump(s1);
+    dump(s2);
     printf("mid = %d\n", mid(s1, s2, 5));
 }
